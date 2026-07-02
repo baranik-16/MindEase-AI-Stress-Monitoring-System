@@ -1,0 +1,38 @@
+.dashboard {
+  text-align: center;
+  padding: 30px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.tab textarea {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.result {
+  margin-top: 30px;
+  background: #eaf4ff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: left;
+}
